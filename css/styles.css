@@ -658,6 +658,24 @@ a.card:hover .card-media img { transform: scale(1.04); }
 .lightbox-next { right: -3.5rem; top: 50%; transform: translateY(-50%); }
 
 /* ——— Coming soon pages ——— */
+.coming-soon-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  max-width: 56rem;
+  margin: 0 auto 2rem;
+}
+.coming-soon-photos .coming-soon-photo {
+  max-width: none;
+  margin: 0;
+}
+.coming-soon-photo figcaption {
+  margin: 0;
+  padding: 0.65rem 0.85rem 0.85rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  background: rgba(247, 241, 232, 0.85);
+}
 .coming-soon-photo {
   max-width: 56rem;
   margin: 0 auto 2rem;
