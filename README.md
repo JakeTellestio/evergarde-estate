@@ -5,7 +5,7 @@ Static multi-page site for Evergarde Estate (Hogsback, Eastern Cape).
 **Domain:** [evergarde.com](https://evergarde.com)  
 **Tagline:** A garden in the mist.  
 **Address:** 36 Main Road, Hogsback  
-**Email:** jake@evergarde.com
+**Email:** jake@tellestio.com
 
 Hosted on GitHub Pages from this repository. Relative asset paths keep the site working on GitHub Pages and on the custom domain.
 
