@@ -35,13 +35,13 @@ npm start
 | `index.html` | Home — hero, intro, teaser cards |
 | `gallery.html` | Photo grid + lightbox |
 | `stay.html` | Stays (Rose Cottage Airbnb + enquiries) |
-| `photography.html` | Photo venue — ready to book |
+| `photo-venue.html` | Photo venue — ready to book |
 | `coffee-shop.html` | Briar — coming soon |
 | `nursery.html` | Rootstock — coming soon |
 | `art-gallery.html` | Understory — coming soon |
 | `damask-cottage.html` | Damask Cottage — coming soon |
 | `rosehip.html` | Rosehip shop — coming soon |
-| `glasshouse.html` | The Glasshouse — coming soon |
+| `the-glasshouse.html` | The Glasshouse — coming soon |
 | `weddings.html` | Wedding venue — coming soon |
 
 ## Stack
