@@ -1,8 +1,8 @@
-# Evergarde Estate — evergarde.com
+# Evergarde Estate
 
 Static multi-page site for Evergarde Estate (Hogsback, Eastern Cape).
 
-**Domain:** [evergarde.com](https://evergarde.com)  
+**Live site:** [https://jaketellestio.github.io/evergarde-estate/](https://jaketellestio.github.io/evergarde-estate/)  
 **Tagline:** A garden in the mist.  
 **Address:** 36 Main Road, Hogsback  
 **Email:** jake@tellestio.com
