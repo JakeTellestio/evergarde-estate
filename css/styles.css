@@ -1,27 +1,19 @@
 /* Evergarde Estate — warm hospitality / stone manor aesthetic */
 :root {
-  --cream: #f7f1e8;
-  --cream-dark: #ebe3d4;
-  --parchment: #faf6ef;
-  --stone: #9a8b74;
-  --stone-dark: #6e6252;
-  --forest: #243528;
-  --forest-mid: #2f4534;
-  --forest-deep: #1a261c;
-  --gold: #b8954a;
-  --gold-soft: #d4b56a;
-  --gold-muted: #c9a96a;
-  --ink: #2a2520;
-  --ink-soft: #4a433c;
-  --muted: #6b635a;
-  --white: #fffcf7;
-  --shadow: 0 12px 40px rgba(36, 53, 40, 0.12);
-  --shadow-sm: 0 4px 16px rgba(36, 53, 40, 0.08);
-  --radius: 4px;
-  --font-display: "Cormorant Garamond", "Palatino Linotype", Palatino, Georgia, serif;
-  --font-body: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
-  --max: 1120px;
-  --header-h: 4.5rem;
+  --amathole: #1F2E26;
+  --mist: #F4F1EA;
+  --lichen: #8B9483;
+  --yellowwood: #C4A57B;
+  --old-rose: #B4707A;
+  --ink: #171916;
+  --forest: var(--amathole);
+  --forest-deep: #15201b;
+  --cream: var(--mist);
+  --gold: var(--yellowwood);
+  --gold-muted: #a88b63;
+  --muted: #5c6458;
+  --text: var(--ink);
+  --bg: var(--mist);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -869,4 +861,26 @@ a.card:hover .card-media img { transform: scale(1.04); }
   flex-wrap: wrap;
   gap: 0.75rem;
   align-items: center;
+}
+
+.listing-thumbs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+.listing-thumbs img {
+  width: 100%;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.hero-kicker {
+  font-family: "Cormorant Garamond", "EB Garamond", serif;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-style: italic;
+  color: var(--yellowwood);
+  margin: 0 0 0.75rem;
+  letter-spacing: 0.02em;
 }
