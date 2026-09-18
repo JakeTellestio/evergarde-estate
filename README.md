@@ -1,6 +1,13 @@
-# Evergarde Estate — marketing site
+# Evergarde Estate — evergarde.com
 
 Static multi-page site for Evergarde Estate (Hogsback, Eastern Cape).
+
+**Domain:** [evergarde.com](https://evergarde.com)  
+**Tagline:** A garden in the mist.  
+**Address:** 36 Main Road, Hogsback  
+**Email:** jake@tellestio.com
+
+Hosted on GitHub Pages from this repository. Relative asset paths keep the site working on GitHub Pages and on the custom domain.
 
 ## Preview locally
 
@@ -27,12 +34,18 @@ npm start
 |------|-------------|
 | `index.html` | Home — hero, intro, teaser cards |
 | `gallery.html` | Photo grid + lightbox |
-| `stay.html` | Short-term rentals & bookings email |
-| `coffee-shop.html` | Coming soon |
-| `nursery.html` | Coming soon (plant nursery) |
-| `art-gallery.html` | Coming soon |
-| `new-cottage.html` | Coming soon (new cottage) |
+| `stay.html` | Stays (Rose Cottage Airbnb + enquiries) |
+| `photography.html` | Photo venue — ready to book |
+| `coffee-shop.html` | Briar — coming soon |
+| `nursery.html` | Rootstock — coming soon |
+| `art-gallery.html` | Understory — coming soon |
+| `damask-cottage.html` | Damask Cottage — coming soon |
+| `rosehip.html` | Rosehip shop — coming soon |
+| `glasshouse.html` | The Glasshouse — coming soon |
+| `weddings.html` | Wedding venue — coming soon |
 
 ## Stack
 
 Plain HTML, CSS (`css/styles.css`), and minimal vanilla JS (`js/main.js`). No build step required. Images live in `images/`.
+
+Brand palette: Amathole, Mist, Lichen, Yellowwood, Old Rose, Ink. Headings: Cormorant / EB Garamond. Body: Source Sans 3 / Inter.

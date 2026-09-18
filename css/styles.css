@@ -1,19 +1,38 @@
-/* Evergarde Estate — warm hospitality / stone manor aesthetic */
+/* Evergarde Estate — brand guide visual system */
 :root {
+  /* Brand palette */
   --amathole: #1F2E26;
   --mist: #F4F1EA;
   --lichen: #8B9483;
   --yellowwood: #C4A57B;
   --old-rose: #B4707A;
   --ink: #171916;
+
+  /* Mapped tokens */
   --forest: var(--amathole);
+  --forest-mid: #2a3d33;
   --forest-deep: #15201b;
   --cream: var(--mist);
+  --cream-dark: #e8e2d6;
+  --parchment: #faf7f1;
   --gold: var(--yellowwood);
+  --gold-soft: #d4b892;
   --gold-muted: #a88b63;
+  --stone: var(--lichen);
+  --stone-dark: #6a7264;
+  --ink-soft: #3a3d38;
   --muted: #5c6458;
   --text: var(--ink);
   --bg: var(--mist);
+  --white: #fffcf7;
+
+  --shadow: 0 12px 40px rgba(31, 46, 38, 0.12);
+  --shadow-sm: 0 4px 16px rgba(31, 46, 38, 0.08);
+  --radius: 4px;
+  --font-display: "Cormorant Garamond", "EB Garamond", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-body: "Source Sans 3", Inter, system-ui, sans-serif;
+  --max: 1120px;
+  --header-h: 4.5rem;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -154,7 +173,7 @@ p:last-child { margin-bottom: 0; }
 .site-nav ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.15rem 1.35rem;
+  gap: 0.15rem 0.85rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -163,9 +182,9 @@ p:last-child { margin-bottom: 0; }
 .site-nav a {
   text-decoration: none;
   color: var(--ink-soft);
-  font-size: 0.92rem;
+  font-size: 0.85rem;
   font-weight: 500;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   padding: 0.35rem 0;
   position: relative;
 }
