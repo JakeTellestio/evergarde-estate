@@ -62,7 +62,8 @@
       'images/gallery-34.jpeg',
       'images/gallery-35.jpeg',
       'images/gallery-36.jpeg',
-      'images/gallery-37.jpg'
+      'images/gallery-37.jpg',
+      'images/gallery-38.jpg'
     ];
     var bust = "20260918e";
     var i = 0;
