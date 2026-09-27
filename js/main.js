@@ -25,6 +25,7 @@
     var prev = hero.querySelector("[data-hero-prev]");
     var next = hero.querySelector("[data-hero-next]");
     var slides = [
+      'images/gallery-38.jpg',
       'images/hero.jpg',
       'images/gallery-01.jpg',
       'images/gallery-02.jpg',
@@ -61,13 +62,12 @@
       'images/gallery-33.jpeg',
       'images/gallery-34.jpeg',
       'images/gallery-35.jpeg',
-      'images/gallery-36.jpeg',
-      'images/gallery-38.jpg'
+      'images/gallery-36.jpeg'
     ];
-    var bust = "20260918e";
+    var bust = "20260927a";
     var i = 0;
     try {
-      var saved = sessionStorage.getItem("evergarde-hero-try");
+      var saved = sessionStorage.getItem("evergarde-hero-start");
       if (saved !== null) {
         var n = parseInt(saved, 10);
         if (!isNaN(n) && n >= 0 && n < slides.length) i = n;
@@ -85,7 +85,7 @@
       bg.style.backgroundImage = "url('" + path + "')";
       bg.setAttribute("aria-label", "Hero photo " + nameOf(slides[i]));
       if (label) label.textContent = (i + 1) + " / " + slides.length + " · " + nameOf(slides[i]);
-      try { sessionStorage.setItem("evergarde-hero-try", String(i)); } catch (e) {}
+      try { sessionStorage.setItem("evergarde-hero-start", String(i)); } catch (e) {}
     }
 
     if (prev) prev.addEventListener("click", function () { show(i - 1); });
