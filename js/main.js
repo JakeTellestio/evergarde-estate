@@ -1,4 +1,20 @@
 (function () {
+  /* Contact: build mailto only in the browser (not plain in HTML) */
+  document.querySelectorAll("a.email-link[data-user][data-domain]").forEach(function (el) {
+    var user = el.getAttribute("data-user") || "";
+    var domain = el.getAttribute("data-domain") || "";
+    if (!user || !domain) return;
+    var addr = user + String.fromCharCode(64) + domain;
+    var subject = el.getAttribute("data-subject");
+    var href = "mail" + "to:" + addr;
+    if (subject) href += "?subject=" + encodeURIComponent(subject);
+    el.setAttribute("href", href);
+    if (el.getAttribute("data-show") === "1" || !el.textContent.trim()) {
+      el.textContent = addr;
+    }
+  });
+
+
   "use strict";
 
   /* Mobile nav */
